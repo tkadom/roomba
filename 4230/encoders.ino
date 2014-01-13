@@ -22,7 +22,7 @@ void setup()
     pinMode(encoderPin, INPUT); 
 
 // encoder pin on interrupt 0
-  attachInterrupt(0, decoder, FALLING);
+  attachInterrupt(0, decoder, LOW);
 
 }
 
